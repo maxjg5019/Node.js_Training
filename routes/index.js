@@ -10,4 +10,8 @@ router.get('/test',function(req,res,next){
   res.send('This is localhost:3000/test')
 })
 
+router.get('/hello',function(req,res,next){
+  res.send('Hello')
+})
+
 module.exports = router;
